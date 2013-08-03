@@ -26,14 +26,12 @@ pre code {
   color: #DDD;
 }
 
-pre code .constant {
+pre code .constant,
+pre .asciidoc .code {
 	color: #66D9EF;
 }
 
-pre .code {
-    color: aqua;
-}
-
+pre .code,
 pre .class .title,
 pre .header {
 	color: white;
@@ -81,6 +79,7 @@ pre .prompt {
 
 pre .comment,
 pre .java .annotation,
+pre .smartquote,
 pre .blockquote,
 pre .horizontal_rule,
 pre .python .decorator,
