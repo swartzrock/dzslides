@@ -247,7 +247,7 @@ section.ending p.footer {
   font-size: 3em;
   text-align: center;
   color: #43C5F1;
-  font-weight: bold;
+  font-weight: 700;
   top: 55%;
   margin: 0;
 }
@@ -416,7 +416,7 @@ section em {
 }
 
 section em .light {
-  font-weight: normal;
+  font-weight: 300;
 }
 
 section.intro em {
@@ -460,7 +460,7 @@ blockquote:before {
   color: #611427;
   content: '\201C';
   font-size: 8em;
-  font-weight: 500;
+  font-weight: 700;
   float: left;
   margin-left: -.6em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
@@ -468,12 +468,11 @@ blockquote:before {
 
 section blockquote p {
   color: #1D2326;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.5;
   margin-bottom: .5em;
   font-style: italic;
   font-size: 3.5em;
-  font-weight: normal;
 }
 
 blockquote p em {
@@ -675,9 +674,8 @@ img.stretch-y {
 span.detail {
   font-size: .6em;
   color: #958976;
-  /*opacity: 0.3;*/
   opacity: 0.6;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .mild {
@@ -818,4 +816,8 @@ section.fit > img {
 
 .intro .small {
   font-size: .5em;
+}
+
+.intro .smaller {
+  font-size: 2.5em;
 }
